@@ -45,7 +45,7 @@ else()
   option(USE_BUNDLED_LIBICONV "Use the bundled version of libiconv." OFF)
 endif()
 
-option(ENABLE_WASMTIME "Use treesitter with wasmtime support." OFF)
+option(ENABLE_WASMTIME "Use treesitter with wasmtime support." ON)
 if(ENABLE_WASMTIME)
   if(USE_BUNDLED)
     option(USE_BUNDLED_WASMTIME "Use the bundled wasmtime." ON)
